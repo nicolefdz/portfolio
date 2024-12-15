@@ -97,3 +97,32 @@
     }
   }
     
+  @keyframes cursor{
+    to{
+        border-left: 3px solid #b74b4b;
+    }
+}
+
+@keyframes words{
+    0%, 20%{
+        content: "GRC Enthusiast";
+    }
+    21%, 40%{
+        content: "MIS Student";
+    }
+    41%, 60%{
+        content: "Cybersecurity Student";
+    }
+    61%, 80%{
+        content: "IT Enthusiast";
+    }
+    81%, 100%{
+        content: "Curious Mind";
+    }
+}
+
+@media (max-width: 600px) {
+    .typing-text::before {
+        font-size: 1rem; 
+    }
+}
